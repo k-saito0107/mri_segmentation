@@ -1,24 +1,10 @@
 # パッケージのimport
-import random
-import math
-import time
 import pandas as pd
 import numpy as np
-import os
 import torch
-import torch.utils.data as data
-import torch.nn as nn
-import torch.nn.init as init
-import torch.nn.functional as F
-import torch.optim as optim
-import os.path as osp
 from PIL import Image
-import matplotlib.pyplot as plt
-
 import torchvision
 import torchvision.transforms as transforms
-import cv2
-from glob import glob
 
 class Make_Dataset(data.Dataset):
     def __init__(self, img_list, masks_list, input_transform, label_transform):

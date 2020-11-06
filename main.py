@@ -16,7 +16,6 @@ from PIL import Image
 import matplotlib.pyplot as plt
 import torchvision
 import torchvision.transforms as transforms
-import cv2
 from glob import glob
 
 
